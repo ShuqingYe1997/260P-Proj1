@@ -43,38 +43,3 @@ int doalg(int n, int k, int Best[]) {
     }
     return 1;
 }
-
-
-// Solution 4
-int doalg_(int n, int k, int Best[]) {
-    if (n < 10 || n > 10000) {
-        printf(" *** invalid value for n, n should be 10 ~ 10000");
-        return 0;
-    }
-    if (k < 1 || k > 100) {
-        printf(" *** invalid value for k, n should be 1 ~ 100");
-        return 0;
-    }
-
-    int pointer = 0;
-    Best[pointer] = 1;
-    for (int i = 2; i <= n; i++) {
-        if (COMPARE(i, Best[pointer]) == 1) {
-            int p = binarySearch(Best, 0, pointer, i);
-            int j = pointer + 1;
-            for (; j > p ; j--) {
-                Best[j] = Best[j - 1];
-            }
-            Best[j] = i;
-            pointer++;
-        }
-        else {  // i < Best[pointer]
-            Best[++pointer] = i;
-        }
-        if (pointer >= k)
-            pointer = k - 1;  // keep pointer < k
-    }
-    return 1;
-}
-
-

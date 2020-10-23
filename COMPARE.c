@@ -42,9 +42,6 @@ int COMPARE(int arg1, int arg2, ...) {
                 element[j] = t;
             }
         }
-//        for (i=1; i<=arg2; i++)
-//            printf("%d, %d\n", i, element[i]);
-//        printf("\n");
         comp = 0;
         size = arg2;
         return(0);

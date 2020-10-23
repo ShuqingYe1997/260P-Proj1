@@ -10,8 +10,30 @@ n=10000,  k=40:  maximum= 16341,  avg=15158.73  // make pointer <= k - 1
 n=10000,  k=40:  maximum= 11598,  avg=11342.81  // with binary search
 n=10000,  k=40:  maximum= 11583,  avg=11334.12  // compare pointer - 1
 
-
-
 ========BF=========
 n=  100,  k=40:  maximum= 9900,  avg= 9900.00
 n= 1000,  k=40:  maximum= 999000,  avg=999000.00
+
+=======（N,K）============
+
+n=  100,  k=10:  maximum= 233,  avg=  192.26
+n=  100,  k=20:  maximum= 345,  avg=  291.25
+n=  100,  k=40:  maximum= 509,  avg=  442.36
+n= 1000,  k=10:  maximum= 1243,  avg= 1168.46
+n= 1000,  k=20:  maximum= 1498,  avg= 1392.73
+n= 1000,  k=40:  maximum= 1980,  avg= 1840.20
+n=10000,  k=10:  maximum= 10340,  avg=10249.42
+n=10000,  k=20:  maximum= 10741,  avg=10594.92
+n=10000,  k=40:  maximum= 11606,  avg=11334.21
+
+==========sorted array============
+n=  100,  k=10:  maximum= 385,  avg=  385.00
+n=  100,  k=20:  maximum= 469,  avg=  469.00
+n=  100,  k=40:  maximum= 537,  avg=  537.00
+n= 1000,  k=10:  maximum= 3985,  avg= 3985.00
+n= 1000,  k=20:  maximum= 4969,  avg= 4969.00
+n= 1000,  k=40:  maximum= 5937,  avg= 5937.00
+n=10000,  k=10:  maximum= 39985,  avg=39985.00
+n=10000,  k=20:  maximum= 49969,  avg=49969.00
+n=10000,  k=40:  maximum= 59937,  avg=59937.00
+
