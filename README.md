@@ -17,7 +17,7 @@ n=10000,  k=40:  maximum= 11583,  avg=11334.12
 n=10000,  k=40:  maximum= 16609,  avg=15388.86
 ```
 ## Report
-For more details, please see [report]().
+For more details, please see [report](/report/report.pdf).
 ## Criteria
 | Avg Case  | Points|
 | ---------- | -----------|
