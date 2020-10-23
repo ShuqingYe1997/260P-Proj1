@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/UCI_MCS/260P/Proj1/COMPARE.c
+stdio.h
+-
+stdarg.h
+-
+
+D:/UCI_MCS/260P/Proj1/MAIN.c
+stdio.h
+-
+COMPARE.c
+D:/UCI_MCS/260P/Proj1/COMPARE.c
+doalg.c
+D:/UCI_MCS/260P/Proj1/doalg.c
+
+D:/UCI_MCS/260P/Proj1/doalg.c
+stdlib.h
+-
+

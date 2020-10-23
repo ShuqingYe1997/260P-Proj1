@@ -1,0 +1,17 @@
+n=  100,  k=40:  maximum= 3201,  avg= 2571.49   //two stacks
+n=  100,  k=40:  maximum= 3298,  avg= 2666.23  // one stack(Best)
+
+n=  100,  k=40:  maximum= 1790,  avg= 1343.86  // make pointer <= k
+n= 1000,  k=40:  maximum= 5237,  avg= 4312.78
+n=10000,  k=40:  maximum= 16609,  avg=15388.86
+
+n=10000,  k=40:  maximum= 16341,  avg=15158.73  // make pointer <= k - 1
+
+n=10000,  k=40:  maximum= 11598,  avg=11342.81  // with binary search
+n=10000,  k=40:  maximum= 11583,  avg=11334.12  // compare pointer - 1
+
+
+
+========BF=========
+n=  100,  k=40:  maximum= 9900,  avg= 9900.00
+n= 1000,  k=40:  maximum= 999000,  avg=999000.00
